@@ -1,13 +1,16 @@
 import openai
 from mem0 import MemoryClient
 
+from dotenv import load_dotenv
+load_dotenv()
+
 """
 Get a Mem0 API key here: https://mem0.dev/api-keys-avb
 
 Ensure to export the MEM0_API_KEY environment variable.
 
 ```bash
-export MEM0_API_KEY=your_key_here
+export MEM0_API_KEY=m0-rCTpeCgJjF2a72kqYrA2GbJhDUKXsnVmnQr1pkj1
 ```
 """
 

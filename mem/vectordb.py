@@ -1,14 +1,21 @@
 from datetime import datetime
 from typing import Optional
 from uuid import uuid4
+import os
 from pydantic import BaseModel
 from qdrant_client import AsyncQdrantClient
 from qdrant_client.grpc import Points, ScoredPoint
 from qdrant_client.models import Distance, Filter, VectorParams, models
 import asyncio
 import numpy as np
+from dotenv import load_dotenv
 
-client = AsyncQdrantClient(url="http://localhost:6333")
+load_dotenv()
+
+client = AsyncQdrantClient(
+    url="https://e01e371d-d840-41b5-b894-331ad884a5e3.eu-west-1-0.aws.cloud.qdrant.io",
+    api_key=os.environ.get("QDRANT_API_KEY"),
+)
 COLLECTION_NAME = "memories"
 
 
