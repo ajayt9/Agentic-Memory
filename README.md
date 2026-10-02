@@ -6,17 +6,6 @@ This repository demonstrates building intelligent memory-enabled chatbots using 
 ![Memory-Enabled Chatbot Demo](assets/demo.png)
 Simple code that does gives long-term, cross-session, user-scoped, attributes-tagged memory to LLMs.
 
-
-> **📺 Watch the Full video for free**  
-> **[How to build your own long-term Agentic Memory System for LLMs | Mem0 from scratch in DSPy](https://youtu.be/n4GPdsQnHqc)**  
-
-## Support
-
-If you find this content helpful, please consider supporting my work on Patreon. Your support helps me create more in-depth tutorials and content. My Patreon hosts all the code, projects, slides, write-ups I have ever made on my YouTube channel. 
-
-[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" width="200">](https://www.patreon.com/NeuralBreakdownwithAVB)
-
-
 ## Relevant external links
 
 The architecture is inspired heavily by Mem0. Here are some links to get started with Mem0.
